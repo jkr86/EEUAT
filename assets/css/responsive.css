@@ -1,0 +1,429 @@
+/* Hills Page Responsive Setting, And some Common Styles here */
+
+@media (max-width: 1199px) and (min-width: 1024px) { }
+@media (max-width: 1023px) and (min-width: 992px) { }
+@media (max-width: 991px) and (min-width: 768px) { }
+@media (max-width: 767px) and (min-width: 685px) { }
+@media (max-width: 684px) and (min-width: 568px) {
+    .header .row{
+        display: flex;
+    }
+    .header .nav-pos1 img{
+        width: 150px;
+    }
+    .header .nav-pos2 .nav{
+        display: none !important;
+    }
+    .header .nav-pos2{
+        padding-left: 140px;
+    }
+    .header .nav-pos2 .fa-icon{
+        color: #f37778;
+        font-size: 22px;
+        display: block;
+    }
+    .sec2-img .bgImg-Rodeo{
+    }
+    .sec2-img .sec2-caption{
+        font-size: 40px !important;
+        width: unset !important;
+    }
+    .sec2-img .sec2-btn{
+        display: none;
+    }
+    .sec3-desc .description #desc-heading {
+        font-size: 17px !important;
+        font-weight: 800 !important;
+    }
+    .sec3-desc .description #desc-para {
+        font-size: 12px !important;
+        font-weight: 800 !important;
+    }
+    .sec3-desc .sec3-btn{
+        font-size: 9px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 30px;
+    }
+    .sec3-desc .sec3-btn button{
+        background: #f37778;
+        border: 1px solid #f37778;
+        border-radius: 5px;
+        min-width: 168px;
+        min-height: 32px;
+    }
+    .sec4-highlights .sec4-bgImg .customLayout{
+        margin-top: 0;
+    }
+    .sec4-highlights .sec4-bgImg{ 
+        background-position: right !important;
+    }
+    .sec4-highlights .sec4-bgImg #span-high{
+        font-size: 10px !important; 
+    }
+    .sec4-highlights .sec4-bgImg #highlights-heading{
+        font-size: 17px !important;
+        font-weight: 700 !important;
+        line-height: 1.3;
+    }
+    .sec4-highlights .sec4-bgImg #highlights-para{
+        font-weight: 400 !important;
+        font-size: 13px !important;
+    }
+    .footer #footer-heading-top{
+        font-size: 11px !important;
+        font-weight: 900 !important;
+    }
+    .footer #footer-heading-center{
+        font-size: 9px !important;
+        font-weight: 800 !important;
+    }
+    .footer #footer-heading-bottom{
+        font-size: 7px !important;
+        font-weight: 600 !important;
+    }
+
+    .footer #footer-bottom-center{
+        font-size: 11px !important;
+        font-weight: 700 !important;
+    }
+    .footer #footer-bottom-bottom{
+        font-size: 7px !important;
+        font-weight: 400 !important;
+    }
+ }
+ 
+@media (max-width: 567px) and (min-width: 480px) 
+{
+    .header .row{
+        display: flex;
+    }
+    .header .nav-pos1 img{
+        width: 150px;
+    }
+    .header .nav-pos2 .nav{
+        display: none !important;
+    }
+    .header .nav-pos2{
+        padding-left: 140px;
+    }
+    .header .nav-pos2 .fa-icon{
+        color: #f37778;
+        font-size: 22px;
+        display: block;
+    }
+    .sec2-img .bgImg-Rodeo{
+    }
+    .sec2-img .sec2-caption{
+        font-size: 40px !important;
+        width: unset !important;
+    }
+    .sec2-img .sec2-btn{
+        display: none;
+    }
+    .sec3-desc .description #desc-heading {
+        font-size: 17px !important;
+        font-weight: 800 !important;
+    }
+    .sec3-desc .description #desc-para {
+        font-size: 12px !important;
+        font-weight: 800 !important;
+    }
+    .sec3-desc .sec3-btn{
+        font-size: 9px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 30px;
+    }
+    .sec3-desc .sec3-btn button{
+        background: #f37778;
+        border: 1px solid #f37778;
+        border-radius: 5px;
+        min-width: 168px;
+        min-height: 32px;
+    }
+    .sec4-highlights .sec4-bgImg .customLayout{
+        margin-top: 0;
+    }
+    .sec4-highlights .sec4-bgImg{ 
+        background-position: right !important;
+    }
+    .sec4-highlights .sec4-bgImg #span-high{
+        font-size: 10px !important; 
+    }
+    .sec4-highlights .sec4-bgImg #highlights-heading{
+        font-size: 17px !important;
+        font-weight: 700 !important;
+        line-height: 1.3;
+    }
+    .sec4-highlights .sec4-bgImg #highlights-para{
+        font-weight: 400 !important;
+        font-size: 13px !important;
+    }
+
+    .footer #footer-heading-top{
+        font-size: 11px !important;
+        font-weight: 900 !important;
+    }
+    .footer #footer-heading-center{
+        font-size: 9px !important;
+        font-weight: 900 !important;
+    }
+    .footer #footer-heading-bottom{
+        font-size: 7px !important;
+        font-weight: 600 !important;
+    }
+
+    .footer #footer-bottom-center{
+        font-size: 11px !important;
+        font-weight: 700 !important;
+    }
+    .footer #footer-bottom-bottom{
+        font-size: 7px !important;
+        font-weight: 400 !important;
+    }
+    /* rules page */
+   
+ }
+@media (max-width: 479px) and (min-width: 320px) 
+{
+    .header .row{
+        display: flex;
+    }
+    .header .nav-pos1 img{
+        width: 150px;
+    }
+    .header .nav-pos2 .nav{
+        display: none !important;
+    }
+    .header .nav-pos2{
+        padding-left: 140px;
+    }
+    .header .nav-pos2 .fa-icon{
+        color: #f37778;
+        font-size: 22px;
+        display: block;
+    }
+    .emptyDiv {
+        width: 100%;
+        height: 100px;
+    }
+    .bgImg-Prizes-exp .container{
+        width: 100%;
+    }
+    .sec2-img .sec2-caption{
+        font-size: 40px !important;
+        width: unset !important;
+    }
+    .sec2-img .sec2-btn{
+        display: none;
+    }
+    .sec3-desc .description #desc-heading {
+        font-size: 17px !important;
+        font-weight: 800 !important;
+    }
+    .sec3-desc .description #desc-para {
+        font-size: 12px !important;
+        font-weight: 800 !important;
+    }
+    .sec3-desc .sec3-btn{
+        font-size: 9px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 30px;
+    }
+    .sec3-desc .sec3-btn button{
+        background: #f37778;
+        border: 1px solid #f37778;
+        border-radius: 5px;
+        min-width: 168px;
+        min-height: 32px;
+    }
+    .sec4-highlights .sec4-bgImg .customLayout{
+        margin-top: 0;
+    }
+    .sec4-highlights .sec4-bgImg{ 
+        background-position: right !important;
+        display: block !important;
+    }
+    .sec4-highlights .sec4-bgImg #span-high{
+        font-size: 10px !important; 
+    }
+    .sec4-highlights .sec4-bgImg #highlights-heading{
+        font-size: 17px !important;
+        font-weight: 700 !important;
+        width: 260px;
+        line-height: 1.3;
+    }
+    .sec4-highlights .sec4-bgImg #highlights-para{
+        font-weight: 400 !important;
+        font-size: 13px !important;
+    }
+
+    .footer #footer-heading-top{
+        font-size: 11px !important;
+        font-weight: 900 !important;
+    }
+    .footer #footer-heading-center{
+        font-size: 9px !important;
+        font-weight: 800 !important;
+        width: 333px;
+    }
+    .footer #footer-heading-bottom{
+        font-size: 7px !important;
+        font-weight: 700 !important;
+    }
+
+    .footer #footer-bottom-center{
+        font-size: 11px !important;
+        font-weight: 700 !important;
+    }
+    .footer #footer-bottom-bottom{
+        font-size: 7px !important;
+        font-weight: 400 !important;
+        width: 246px;
+    }
+    .footer-bottom-cont {
+        min-height: 85px;
+    }
+    /* -------------
+    Lifetime Page
+    ------------- */
+    .pink-heading {
+        font-size: 30px;
+    }
+    .pink-text {
+        width: 98%;
+        font-size: 17px;
+    }
+    .background-pink {
+        min-height: 270px;
+    }
+    .prizeimgCon {
+        flex-direction: column;
+    }
+    .textCon h4 {
+        width: 264px;
+        font-size: 16px;
+    }
+    .pink-sub-text {
+        font-size: 17px;
+        width: 274px;
+    }
+    .prizeImg1 {
+        width: 274px;
+        margin-bottom: 15px;
+    }
+    .prizeImg2 {
+        width: 274px;
+        margin-bottom: 15px;
+    }
+    .prizeImg3 {
+        width: 274px;
+        margin-bottom: 15px;
+    }
+    .textWin h3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .winners {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .textWin h1 {
+        font-size: 14px;
+    }
+    .paragraph p {
+        color: #d8d8d8;
+        font-size: 13px;
+    }
+    .paragraph-1 {
+        font-size: 13px;
+    }
+    .headercontainer .img-label{
+        font-size: 50px !important;
+        margin-left: 10px;
+    }
+    .icon-right {
+        margin-left: 5px;
+        width: 40px;
+        margin-bottom: 0px;
+    }
+    .headercontainer {
+        margin-top: -40px;
+        margin-bottom: -30px;
+    }
+    .background1 {
+        background-size: cover;
+        margin-right: -15px;
+    }
+    .background-black {
+        min-height: 510px;
+    }
+    /* -------------
+    Rules Page
+    ------------- */
+    .leftrightprize {
+        display: flex;
+        flex-direction: column;
+        margin-left: -15px;
+    }
+    .leftprize {
+        min-width: 110%;
+        margin-left: -25px;
+        min-height: 345px;
+    }
+    .prz .sec2-caption {
+        font-size: 39px !important;
+        min-width: 354px;
+    }
+    .leftprize h4 {
+        margin-top: -15px;
+        font-size: 33px;
+    }
+    .leftprize h5 {
+        font-size: 18px;
+    }
+    .leftprize p {
+        width: 358px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .leftprize h6 {
+        font-size: 13px;
+    }
+    .week {
+        margin-top: 21px;
+        margin-left: 0px;
+        font-size: 34px;
+        letter-spacing: -0.5px;
+    }
+    .righrprize{
+        margin-top: -4px !important;
+        min-height: 330px!important;
+        min-width: 104%;
+        background-size: cover!important;
+        background-position-x: -28px!important;
+    }
+    .righrprize h5 {
+        font-size: 18px;
+        letter-spacing: -0.5px;
+        margin-left: 0px;
+    }
+    .be {
+        width: 351px;
+        font-weight: 600;
+        margin-left: 0px;
+        font-size: 13px;
+    }
+    .rules h4{
+        font-size: 37px;
+    }
+    .rules p{
+        font-weight: 600;
+        font-size: 12px;
+        width: 332px;
+    }
+
+    
+}
